@@ -1,0 +1,35 @@
+running egg_info
+creating ../../build/line_detector/line_detector.egg-info
+writing ../../build/line_detector/line_detector.egg-info/PKG-INFO
+writing dependency_links to ../../build/line_detector/line_detector.egg-info/dependency_links.txt
+writing entry points to ../../build/line_detector/line_detector.egg-info/entry_points.txt
+writing requirements to ../../build/line_detector/line_detector.egg-info/requires.txt
+writing top-level names to ../../build/line_detector/line_detector.egg-info/top_level.txt
+writing manifest file '../../build/line_detector/line_detector.egg-info/SOURCES.txt'
+reading manifest file '../../build/line_detector/line_detector.egg-info/SOURCES.txt'
+writing manifest file '../../build/line_detector/line_detector.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/baquy4/ros2_ws/build/line_detector/build
+creating /home/baquy4/ros2_ws/build/line_detector/build/lib
+creating /home/baquy4/ros2_ws/build/line_detector/build/lib/line_detector
+copying line_detector/__init__.py -> /home/baquy4/ros2_ws/build/line_detector/build/lib/line_detector
+copying line_detector/line_detector_node.py -> /home/baquy4/ros2_ws/build/line_detector/build/lib/line_detector
+running install
+running install_lib
+creating /home/baquy4/ros2_ws/install/line_detector/lib/python3.10/site-packages/line_detector
+copying /home/baquy4/ros2_ws/build/line_detector/build/lib/line_detector/__init__.py -> /home/baquy4/ros2_ws/install/line_detector/lib/python3.10/site-packages/line_detector
+copying /home/baquy4/ros2_ws/build/line_detector/build/lib/line_detector/line_detector_node.py -> /home/baquy4/ros2_ws/install/line_detector/lib/python3.10/site-packages/line_detector
+byte-compiling /home/baquy4/ros2_ws/install/line_detector/lib/python3.10/site-packages/line_detector/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/baquy4/ros2_ws/install/line_detector/lib/python3.10/site-packages/line_detector/line_detector_node.py to line_detector_node.cpython-310.pyc
+running install_data
+creating /home/baquy4/ros2_ws/install/line_detector/share/ament_index
+creating /home/baquy4/ros2_ws/install/line_detector/share/ament_index/resource_index
+creating /home/baquy4/ros2_ws/install/line_detector/share/ament_index/resource_index/packages
+copying resource/line_detector -> /home/baquy4/ros2_ws/install/line_detector/share/ament_index/resource_index/packages
+copying package.xml -> /home/baquy4/ros2_ws/install/line_detector/share/line_detector
+running install_egg_info
+Copying ../../build/line_detector/line_detector.egg-info to /home/baquy4/ros2_ws/install/line_detector/lib/python3.10/site-packages/line_detector-0.0.0-py3.10.egg-info
+running install_scripts
+Installing line_detector_node script to /home/baquy4/ros2_ws/install/line_detector/lib/line_detector
+writing list of installed files to '/home/baquy4/ros2_ws/build/line_detector/install.log'
