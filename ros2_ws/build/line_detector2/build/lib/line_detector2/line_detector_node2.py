@@ -75,7 +75,9 @@ class LaneDetector(Node):
 
         # 노란색 HSV 변환 및 마스킹
         hsv = cv2.cvtColor(roi, cv2.COLOR_BGR2HSV)
-        yellow_lower = (15, 80, 80)
+        # yellow_lower = (15, 80, 80)
+        # yellow_upper = (35, 255, 255)
+        yellow_lower = (15, 140, 140)
         yellow_upper = (35, 255, 255)
         yellow_mask = cv2.inRange(hsv, yellow_lower, yellow_upper)
         cv2.imshow('Yellow Mask', yellow_mask)
