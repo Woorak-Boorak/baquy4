@@ -1,0 +1,94 @@
+[0.000000] (-) TimerEvent: {}
+[0.002046] (line_detector2) JobQueued: {'identifier': 'line_detector2', 'dependencies': OrderedDict()}
+[0.002665] (line_detector2) JobStarted: {'identifier': 'line_detector2'}
+[0.099151] (-) TimerEvent: {}
+[0.200317] (-) TimerEvent: {}
+[0.300984] (-) TimerEvent: {}
+[0.401810] (-) TimerEvent: {}
+[0.502553] (-) TimerEvent: {}
+[0.603241] (-) TimerEvent: {}
+[0.703945] (-) TimerEvent: {}
+[0.804908] (-) TimerEvent: {}
+[0.905687] (-) TimerEvent: {}
+[1.006319] (-) TimerEvent: {}
+[1.107043] (-) TimerEvent: {}
+[1.207835] (-) TimerEvent: {}
+[1.308816] (-) TimerEvent: {}
+[1.409786] (-) TimerEvent: {}
+[1.510921] (-) TimerEvent: {}
+[1.611682] (-) TimerEvent: {}
+[1.712372] (-) TimerEvent: {}
+[1.813051] (-) TimerEvent: {}
+[1.914029] (-) TimerEvent: {}
+[2.015265] (-) TimerEvent: {}
+[2.115943] (-) TimerEvent: {}
+[2.216587] (-) TimerEvent: {}
+[2.317378] (-) TimerEvent: {}
+[2.418156] (-) TimerEvent: {}
+[2.519496] (-) TimerEvent: {}
+[2.620614] (-) TimerEvent: {}
+[2.721526] (-) TimerEvent: {}
+[2.822773] (-) TimerEvent: {}
+[2.924020] (-) TimerEvent: {}
+[3.024681] (-) TimerEvent: {}
+[3.125345] (-) TimerEvent: {}
+[3.226062] (-) TimerEvent: {}
+[3.326808] (-) TimerEvent: {}
+[3.417682] (line_detector2) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/line_detector2', 'build', '--build-base', '/home/baquy4/baq/ros2_ws/build/line_detector2/build', 'install', '--record', '/home/baquy4/baq/ros2_ws/build/line_detector2/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/baquy4/baq/ros2_ws/src/line_detector2', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'baquy4', 'SSH_CLIENT': '192.168.201.58 60754 22', 'LC_TIME': 'ko_KR.UTF-8', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/baquy4/.vscode-server/cli/servers/Stable-cb0c47c0cfaad0757385834bd89d410c78a856c0/server/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'BROWSER': '/home/baquy4/.vscode-server/cli/servers/Stable-cb0c47c0cfaad0757385834bd89d410c78a856c0/server/bin/helpers/browser.sh', 'MOTD_SHOWN': 'pam', 'HOME': '/home/baquy4', 'OLDPWD': '/home/baquy4', 'TERM_PROGRAM_VERSION': '1.102.0', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-31f2aaf4-dc58-4f5f-9500-2f078ad65ccf.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/baquy4/.vscode-server/cli/servers/Stable-cb0c47c0cfaad0757385834bd89d410c78a856c0/server/extensions/git/dist/askpass-main.js', 'LC_MONETARY': 'ko_KR.UTF-8', 'VSCODE_GIT_ASKPASS_NODE': '/home/baquy4/.vscode-server/cli/servers/Stable-cb0c47c0cfaad0757385834bd89d410c78a856c0/server/node', 'SSL_CERT_FILE': '/usr/lib/ssl/certs/ca-certificates.crt', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'COLCON_PREFIX_PATH': '/home/baquy4/baq/ros2_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'baquy4', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '3', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/baquy4/.vscode-server/cli/servers/Stable-cb0c47c0cfaad0757385834bd89d410c78a856c0/server/bin/remote-cli:/home/baquy4/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'LC_ADDRESS': 'ko_KR.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'SSL_CERT_DIR': '/usr/lib/ssl/certs', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'LC_TELEPHONE': 'ko_KR.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-06aae204d0.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/home/baquy4/baq/ros2_ws/install/line_detector2:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'ko_KR.UTF-8', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'ko_KR.UTF-8', 'LC_IDENTIFICATION': 'ko_KR.UTF-8', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/baquy4/baq/ros2_ws/build/line_detector2', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.201.58 60754 192.168.201.13 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/baquy4/baq/ros2_ws/build/line_detector2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/baquy4/baq/ros2_ws/install/line_detector2/lib/python3.10/site-packages:/home/baquy4/baq/ros2_ws/install/line_detector2/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'ko_KR.UTF-8', 'LC_PAPER': 'ko_KR.UTF-8', 'COLCON': '1'}, 'shell': False}
+[3.436209] (-) TimerEvent: {}
+[3.536879] (-) TimerEvent: {}
+[3.637644] (-) TimerEvent: {}
+[3.738420] (-) TimerEvent: {}
+[3.839341] (-) TimerEvent: {}
+[3.940078] (-) TimerEvent: {}
+[4.040779] (-) TimerEvent: {}
+[4.141417] (-) TimerEvent: {}
+[4.242119] (-) TimerEvent: {}
+[4.342753] (-) TimerEvent: {}
+[4.443450] (-) TimerEvent: {}
+[4.544087] (-) TimerEvent: {}
+[4.644811] (-) TimerEvent: {}
+[4.745626] (-) TimerEvent: {}
+[4.846317] (-) TimerEvent: {}
+[4.907865] (line_detector2) StdoutLine: {'line': b'running egg_info\n'}
+[4.910979] (line_detector2) StdoutLine: {'line': b'creating ../../build/line_detector2/line_detector2.egg-info\n'}
+[4.912040] (line_detector2) StdoutLine: {'line': b'writing ../../build/line_detector2/line_detector2.egg-info/PKG-INFO\n'}
+[4.913396] (line_detector2) StdoutLine: {'line': b'writing dependency_links to ../../build/line_detector2/line_detector2.egg-info/dependency_links.txt\n'}
+[4.914616] (line_detector2) StdoutLine: {'line': b'writing entry points to ../../build/line_detector2/line_detector2.egg-info/entry_points.txt\n'}
+[4.915432] (line_detector2) StdoutLine: {'line': b'writing requirements to ../../build/line_detector2/line_detector2.egg-info/requires.txt\n'}
+[4.916092] (line_detector2) StdoutLine: {'line': b'writing top-level names to ../../build/line_detector2/line_detector2.egg-info/top_level.txt\n'}
+[4.917164] (line_detector2) StdoutLine: {'line': b"writing manifest file '../../build/line_detector2/line_detector2.egg-info/SOURCES.txt'\n"}
+[4.928069] (line_detector2) StdoutLine: {'line': b"reading manifest file '../../build/line_detector2/line_detector2.egg-info/SOURCES.txt'\n"}
+[4.931461] (line_detector2) StdoutLine: {'line': b"writing manifest file '../../build/line_detector2/line_detector2.egg-info/SOURCES.txt'\n"}
+[4.932243] (line_detector2) StdoutLine: {'line': b'running build\n'}
+[4.932776] (line_detector2) StdoutLine: {'line': b'running build_py\n'}
+[4.933428] (line_detector2) StdoutLine: {'line': b'creating /home/baquy4/baq/ros2_ws/build/line_detector2/build\n'}
+[4.934880] (line_detector2) StdoutLine: {'line': b'creating /home/baquy4/baq/ros2_ws/build/line_detector2/build/lib\n'}
+[4.935532] (line_detector2) StdoutLine: {'line': b'creating /home/baquy4/baq/ros2_ws/build/line_detector2/build/lib/line_detector2\n'}
+[4.936021] (line_detector2) StdoutLine: {'line': b'copying line_detector2/__init__.py -> /home/baquy4/baq/ros2_ws/build/line_detector2/build/lib/line_detector2\n'}
+[4.936434] (line_detector2) StdoutLine: {'line': b'copying line_detector2/line_detector_node2.py -> /home/baquy4/baq/ros2_ws/build/line_detector2/build/lib/line_detector2\n'}
+[4.936931] (line_detector2) StdoutLine: {'line': b'running install\n'}
+[4.938324] (line_detector2) StdoutLine: {'line': b'running install_lib\n'}
+[4.942470] (line_detector2) StdoutLine: {'line': b'creating /home/baquy4/baq/ros2_ws/install/line_detector2/lib/python3.10/site-packages/line_detector2\n'}
+[4.943131] (line_detector2) StdoutLine: {'line': b'copying /home/baquy4/baq/ros2_ws/build/line_detector2/build/lib/line_detector2/__init__.py -> /home/baquy4/baq/ros2_ws/install/line_detector2/lib/python3.10/site-packages/line_detector2\n'}
+[4.943786] (line_detector2) StdoutLine: {'line': b'copying /home/baquy4/baq/ros2_ws/build/line_detector2/build/lib/line_detector2/line_detector_node2.py -> /home/baquy4/baq/ros2_ws/install/line_detector2/lib/python3.10/site-packages/line_detector2\n'}
+[4.946397] (line_detector2) StdoutLine: {'line': b'byte-compiling /home/baquy4/baq/ros2_ws/install/line_detector2/lib/python3.10/site-packages/line_detector2/__init__.py to __init__.cpython-310.pyc\n'}
+[4.946939] (-) TimerEvent: {}
+[4.948007] (line_detector2) StdoutLine: {'line': b'byte-compiling /home/baquy4/baq/ros2_ws/install/line_detector2/lib/python3.10/site-packages/line_detector2/line_detector_node2.py to line_detector_node2.cpython-310.pyc\n'}
+[4.952437] (line_detector2) StdoutLine: {'line': b'running install_data\n'}
+[4.953199] (line_detector2) StdoutLine: {'line': b'creating /home/baquy4/baq/ros2_ws/install/line_detector2/share/ament_index\n'}
+[4.961016] (line_detector2) StdoutLine: {'line': b'creating /home/baquy4/baq/ros2_ws/install/line_detector2/share/ament_index/resource_index\n'}
+[4.961438] (line_detector2) StdoutLine: {'line': b'creating /home/baquy4/baq/ros2_ws/install/line_detector2/share/ament_index/resource_index/packages\n'}
+[4.961861] (line_detector2) StdoutLine: {'line': b'copying resource/line_detector2 -> /home/baquy4/baq/ros2_ws/install/line_detector2/share/ament_index/resource_index/packages\n'}
+[4.962250] (line_detector2) StdoutLine: {'line': b'copying package.xml -> /home/baquy4/baq/ros2_ws/install/line_detector2/share/line_detector2\n'}
+[4.962563] (line_detector2) StdoutLine: {'line': b'running install_egg_info\n'}
+[4.967245] (line_detector2) StdoutLine: {'line': b'Copying ../../build/line_detector2/line_detector2.egg-info to /home/baquy4/baq/ros2_ws/install/line_detector2/lib/python3.10/site-packages/line_detector2-0.0.0-py3.10.egg-info\n'}
+[4.973194] (line_detector2) StdoutLine: {'line': b'running install_scripts\n'}
+[5.047087] (-) TimerEvent: {}
+[5.073938] (line_detector2) StdoutLine: {'line': b'Installing line_detector_node2 script to /home/baquy4/baq/ros2_ws/install/line_detector2/lib/line_detector2\n'}
+[5.075863] (line_detector2) StdoutLine: {'line': b"writing list of installed files to '/home/baquy4/baq/ros2_ws/build/line_detector2/install.log'\n"}
+[5.147338] (-) TimerEvent: {}
+[5.235403] (line_detector2) CommandEnded: {'returncode': 0}
+[5.248155] (-) TimerEvent: {}
+[5.284976] (line_detector2) JobEnded: {'identifier': 'line_detector2', 'rc': 0}
+[5.288818] (-) EventReactorShutdown: {}
