@@ -1,0 +1,37 @@
+[3.292s] Invoking command in '/home/baquy4/baq/ros2_ws/src/line_detector2': PYTHONPATH=/home/baquy4/baq/ros2_ws/build/line_detector2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/baquy4/baq/ros2_ws/install/line_detector2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/line_detector2 build --build-base /home/baquy4/baq/ros2_ws/build/line_detector2/build install --record /home/baquy4/baq/ros2_ws/build/line_detector2/install.log --single-version-externally-managed install_data
+[4.603s] running egg_info
+[4.606s] creating ../../build/line_detector2/line_detector2.egg-info
+[4.607s] writing ../../build/line_detector2/line_detector2.egg-info/PKG-INFO
+[4.608s] writing dependency_links to ../../build/line_detector2/line_detector2.egg-info/dependency_links.txt
+[4.609s] writing entry points to ../../build/line_detector2/line_detector2.egg-info/entry_points.txt
+[4.610s] writing requirements to ../../build/line_detector2/line_detector2.egg-info/requires.txt
+[4.610s] writing top-level names to ../../build/line_detector2/line_detector2.egg-info/top_level.txt
+[4.611s] writing manifest file '../../build/line_detector2/line_detector2.egg-info/SOURCES.txt'
+[4.618s] reading manifest file '../../build/line_detector2/line_detector2.egg-info/SOURCES.txt'
+[4.624s] writing manifest file '../../build/line_detector2/line_detector2.egg-info/SOURCES.txt'
+[4.626s] running build
+[4.627s] running build_py
+[4.628s] creating /home/baquy4/baq/ros2_ws/build/line_detector2/build
+[4.628s] creating /home/baquy4/baq/ros2_ws/build/line_detector2/build/lib
+[4.629s] creating /home/baquy4/baq/ros2_ws/build/line_detector2/build/lib/line_detector2
+[4.629s] copying line_detector2/__init__.py -> /home/baquy4/baq/ros2_ws/build/line_detector2/build/lib/line_detector2
+[4.630s] copying line_detector2/line_detector_node2.py -> /home/baquy4/baq/ros2_ws/build/line_detector2/build/lib/line_detector2
+[4.631s] running install
+[4.632s] running install_lib
+[4.636s] creating /home/baquy4/baq/ros2_ws/install/line_detector2/lib/python3.10/site-packages/line_detector2
+[4.636s] copying /home/baquy4/baq/ros2_ws/build/line_detector2/build/lib/line_detector2/__init__.py -> /home/baquy4/baq/ros2_ws/install/line_detector2/lib/python3.10/site-packages/line_detector2
+[4.637s] copying /home/baquy4/baq/ros2_ws/build/line_detector2/build/lib/line_detector2/line_detector_node2.py -> /home/baquy4/baq/ros2_ws/install/line_detector2/lib/python3.10/site-packages/line_detector2
+[4.640s] byte-compiling /home/baquy4/baq/ros2_ws/install/line_detector2/lib/python3.10/site-packages/line_detector2/__init__.py to __init__.cpython-310.pyc
+[4.641s] byte-compiling /home/baquy4/baq/ros2_ws/install/line_detector2/lib/python3.10/site-packages/line_detector2/line_detector_node2.py to line_detector_node2.cpython-310.pyc
+[4.646s] running install_data
+[4.647s] creating /home/baquy4/baq/ros2_ws/install/line_detector2/share/ament_index
+[4.647s] creating /home/baquy4/baq/ros2_ws/install/line_detector2/share/ament_index/resource_index
+[4.647s] creating /home/baquy4/baq/ros2_ws/install/line_detector2/share/ament_index/resource_index/packages
+[4.648s] copying resource/line_detector2 -> /home/baquy4/baq/ros2_ws/install/line_detector2/share/ament_index/resource_index/packages
+[4.649s] copying package.xml -> /home/baquy4/baq/ros2_ws/install/line_detector2/share/line_detector2
+[4.649s] running install_egg_info
+[4.663s] Copying ../../build/line_detector2/line_detector2.egg-info to /home/baquy4/baq/ros2_ws/install/line_detector2/lib/python3.10/site-packages/line_detector2-0.0.0-py3.10.egg-info
+[4.669s] running install_scripts
+[4.757s] Installing line_detector_node2 script to /home/baquy4/baq/ros2_ws/install/line_detector2/lib/line_detector2
+[4.759s] writing list of installed files to '/home/baquy4/baq/ros2_ws/build/line_detector2/install.log'
+[4.927s] Invoked command in '/home/baquy4/baq/ros2_ws/src/line_detector2' returned '0': PYTHONPATH=/home/baquy4/baq/ros2_ws/build/line_detector2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/baquy4/baq/ros2_ws/install/line_detector2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/line_detector2 build --build-base /home/baquy4/baq/ros2_ws/build/line_detector2/build install --record /home/baquy4/baq/ros2_ws/build/line_detector2/install.log --single-version-externally-managed install_data

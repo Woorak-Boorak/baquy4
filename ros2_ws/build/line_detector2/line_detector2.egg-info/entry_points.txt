@@ -1,0 +1,3 @@
+[console_scripts]
+line_detector_node2 = line_detector2.line_detector_node2:main
+
