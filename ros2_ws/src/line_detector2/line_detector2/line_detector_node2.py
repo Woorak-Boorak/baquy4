@@ -27,7 +27,7 @@ class LaneFollower(Node):
 
         # --- HSV 마스킹 ---
         hsv = cv2.cvtColor(roi, cv2.COLOR_BGR2HSV)
-        yellow_lower = (10, 90, 90)
+        yellow_lower = (10, 90, 110)
         yellow_upper = (35, 255, 255)
         yellow_mask = cv2.inRange(hsv, yellow_lower, yellow_upper)
         kernel = np.ones((3, 3), np.uint8)
